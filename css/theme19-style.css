@@ -127,7 +127,7 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 	background: url(../images/images-footer-bg.jpg);
     background-repeat: repeat;
     background-position: top left;
-    border-top: 6px solid #90c33e;  padding: 58px 0 0; color: #fff;}
+    border-top: 6px solid #90c33e;  padding: 58px 0; color: #fff;}
 .footer-block{float: left; width: 25%;}
 .footer-block.one{width: 271px;}
 .footer-block.two{width: 274px;}
