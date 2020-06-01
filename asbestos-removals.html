@@ -158,6 +158,9 @@
                         Based in Halifax, our asbestos specialist will remove and dispose of asbestos throughout Yorkshire including Halifax Asbestos Removals.
                       </p>
                     </div>
+                  </div>
+                </div>
+                
                     <div style="display: block; width: 100%; margin: 2rem 0;">
                         <ul id="homeslider">
                         <li>
@@ -192,138 +195,6 @@
                         </li>
                       </ul>
                     </div>
-                  </div>
-                </div>
-                <p style="text-align: center;">
-                  <!-- print_responsive_thumbnail_slider_func -->
-                  <style type="text/css">
-                    .bx-wrapper .bx-viewport {
-                    background: none repeat scroll 0 0  !important;
-                    border: 0px none !important;
-                    box-shadow: 0 0 0 0 !important;
-                    /*padding:25px !important;*/
-                    }
-                  </style>
-                </p>
-                <div style="clear: both;"></div>
-                <div style="width: auto;postion:relative;visibility: hidden" id="divSliderMain">
-                  <div class="responsiveSlider" style="margin-top: 2px !important;">
-                    <div class="limargin"> 
-                      <img src="images/wp-responsive-images-thumbnail-slider-client4_93_144.png" alt="client4" title="client4">
-                    </div>
-                    <div class="limargin"> 
-                      <img src="images/wp-responsive-images-thumbnail-slider-client5_93_144.png" alt="client5" title="client5">
-                    </div>
-                    <div class="limargin"> 
-                      <img src="images/wp-responsive-images-thumbnail-slider-client6_93_144.png" alt="client6" title="client6">
-                    </div>
-                    <div class="limargin"> 
-                      <img src="images/wp-responsive-images-thumbnail-slider-client7_93_144.png" alt="client7" title="client7">
-                    </div>
-                    <div class="limargin"> 
-                      <img src="images/wp-responsive-images-thumbnail-slider-client2_93_144.png" alt="client2" title="client2">
-                    </div>
-                    <div class="limargin"> 
-                      <img src="images/wp-responsive-images-thumbnail-slider-client3_93_144.png" alt="client3" title="client3">
-                    </div>
-                    <div class="limargin"> 
-                      <img src="images/wp-responsive-images-thumbnail-slider-client1_93_144.png" alt="client1" title="client1">
-                    </div>
-                  </div>
-                </div>
-                <script>
-                  var interval_5ec65187e89e2 = setInterval(function() {
-                      
-                  if(document.readyState === 'complete') {
-                  
-                     clearInterval(interval_5ec65187e89e2);
-                  
-                       var $n = jQuery.noConflict();  
-                  
-                       var sliderMainHtml=$n('#divSliderMain').html();   
-                       var slider= $n('.responsiveSlider').bxSlider({
-                                                  slideWidth: 144,
-                              minSlides: 1,
-                              maxSlides: 7,
-                              moveSlides: 1,
-                              slideMargin: 25,  
-                              speed:1000,
-                              pause:1000,
-                                                       autoHover: true,
-                                                                             controls:false,
-                                                     pager:false,
-                              useCSS:false,
-                                                      captions:false,
-                                                                        pager:false,
-                                                                           auto:true,       
-                                                                            infiniteLoop: true,
-                                                      onSliderLoad: function(){
-                                          
-                                   $n("#divSliderMain").css('visibility','visible');
-                               }
-                  
-                        });
-                  
-                  
-                        
-                             var is_firefox=navigator.userAgent.toLowerCase().indexOf('firefox') > -1;  
-                            var is_android=navigator.userAgent.toLowerCase().indexOf('android') > -1;
-                            var is_iphone=navigator.userAgent.toLowerCase().indexOf('iphone') > -1;
-                            var width = $n(window).width();
-                           if(is_firefox && (is_android || is_iphone)){
-                  
-                           }else{
-                                  var timer;
-                                  $n(window).bind('resize', function(){
-                                     if($n(window).width() != width){
-                  
-                                      width = $n(window).width(); 
-                                      timer && clearTimeout(timer);
-                                      timer = setTimeout(onResize, 600);
-                  
-                                     }
-                                  });
-                  
-                            }    
-                  
-                             function onResize(){
-                  
-                                            $n('#divSliderMain').html('');   
-                                            $n('#divSliderMain').html(sliderMainHtml);
-                                              var slider= $n('.responsiveSlider').bxSlider({
-                                                                                      slideWidth: 144,
-                                                minSlides: 1,
-                                                maxSlides: 7,
-                                                moveSlides: 1,
-                                                slideMargin: 25,  
-                                                speed:1000,
-                                                pause:1000,
-                                                                                           autoHover: true,
-                                                                                                                                   controls:false,
-                                                                                         pager:false,
-                                                useCSS:false,
-                                                                                            captions:false,
-                                                                                                                                    pager:false,
-                                                                                                                                   auto:true,       
-                                                                                                                                  infiniteLoop: true
-                                                
-                                          });
-                  
-                  
-                                }
-                             
-                              
-                   
-                     
-                       
-                       
-                   }    
-                  }, 100);
-                  
-                      
-                   
-                   
-                </script><!-- end print_responsive_thumbnail_slider_func -->
               </div>
               <!-- .entry-content -->
             </article>
