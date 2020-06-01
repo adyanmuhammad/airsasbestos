@@ -21,6 +21,7 @@
     <link rel="stylesheet" id="elementskit-responsive-css" href="css/css-responsive.css" type="text/css" media="all">
     <script type="text/javascript" src="js/jquery-jquery.js"></script><script type="text/javascript" src="js/jquery-jquery-migrate.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/theme19-responsive.css">
+    <link rel="stylesheet" href="css/slippry.css">
   </head>
   <body class="home page-template-default page page-id-6 wp-embed-responsive singular image-filters-enabled wpb-js-composer js-comp-ver-6.2.0 vc_responsive elementor-default">
     <div id="page" class="site">
@@ -117,21 +118,38 @@
                 <h1 class="entry-title">Home</h1>
               </header>
               <div class="entry-content">
-                <div class="homepagebanner">
-                  <div class="container">
-                    <div class="hm_banner_text">
-                      <h1>Welcome to AIRS Asbestos</h1>
-                      <p>SAFETY MATTERS &ndash; Fully licenced professional operatives will deal with your asbestos concerns</p>
-                      <div><a class="getfreeqt" href="get-in-touch.html">Contact us today</a></div>
-                      <div class="car-img">
-                        <picture>
-                          <source type="image/webp" srcset="https://asbestosgone.co.uk/wp-content/themes/theme19/images/car.png.webp"></source>
-                          <img src="images/images-car.png" alt="">
-                        </picture>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <ul id="homeslider">
+                  <li>
+                    <a href="#slide1">
+                      <img src="images/homeslider/img-1.jpg" alt="caption 1">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#slide2">
+                      <img src="images/homeslider/img-2.jpg" alt="caption 2">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#slide3">
+                      <img src="images/homeslider/img-3.jpg" alt="caption 3">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#slide4">
+                      <img src="images/homeslider/img-4.jpg" alt="caption 4">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#slide5">
+                      <img src="images/homeslider/img-5.jpg" alt="caption 5">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#slide6">
+                      <img src="images/homeslider/img-6.jpg" alt="caption 6">
+                    </a>
+                  </li>
+                </ul>
                 <div class="other_center_row">
                   <div class="container">
                     <h1><span style="color: #4e4d4d;">OUR</span> SERVICES</h1>
@@ -493,7 +511,9 @@
     </div>
     <!-- #page -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/jquery-jquery.js"></script><script>
+    <script type="text/javascript" src="js/jquery-jquery.js"></script>
+    <script src="js/slippry.min.js"></script>
+    <script>
       jQuery(document).ready(function(e) {
           jQuery(window).scroll(function () {
             var header_height = jQuery( '.top-header' ).height();
@@ -533,6 +553,8 @@
       jQuery(".navclsbtn").click(function(){
       jQuery(".top_menu").toggleClass('open');
       });
+
+      jQuery("#homeslider").slippry();
     </script>
   </body>
 </html>
