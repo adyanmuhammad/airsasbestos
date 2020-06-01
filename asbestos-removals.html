@@ -19,6 +19,7 @@
     <link rel="stylesheet" id="elementskit-responsive-css" href="css/css-responsive.css" type="text/css" media="all">
     <script type="text/javascript" src="js/jquery-jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/theme19-responsive.css">
+    <link rel="stylesheet" href="css/slippry.css">
   </head>
   <body class="page-template-default page page-id-47 wp-embed-responsive singular image-filters-enabled wpb-js-composer js-comp-ver-6.2.0 vc_responsive elementor-default">
     <div id="page" class="site">
@@ -158,6 +159,38 @@
                       </p>
                     </div>
                   </div>
+                  <ul id="homeslider">
+                    <li>
+                        <a href="#slide1">
+                        <img src="images/homeslider/img-1.jpg" alt="<a href='get-in-touch.html'>Contact Us Today</a>">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide2">
+                        <img src="images/homeslider/img-2.jpg" alt="<a href='get-in-touch.html'>Contact Us Today</a>">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide3">
+                        <img src="images/homeslider/img-3.jpg" alt="<a href='get-in-touch.html'>Contact Us Today</a>">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide4">
+                        <img src="images/homeslider/img-4.jpg" alt="<a href='get-in-touch.html'>Contact Us Today</a>">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide5">
+                        <img src="images/homeslider/img-5.jpg" alt="<a href='get-in-touch.html'>Contact Us Today</a>">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#slide6">
+                        <img src="images/homeslider/img-6.jpg" alt="<a href='get-in-touch.html'>Contact Us Today</a>">
+                        </a>
+                    </li>
+                  </ul>
                 </div>
                 <p style="text-align: center;">
                   <!-- print_responsive_thumbnail_slider_func -->
@@ -362,6 +395,7 @@
     </div>
     <!-- #page -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="js/slippry.min.js"></script>
     <script type="text/javascript" src="js/jquery-jquery.js"></script>
     <script>
       jQuery(document).ready(function(e) {
@@ -403,6 +437,8 @@
       jQuery(".navclsbtn").click(function(){
       jQuery(".top_menu").toggleClass('open');
       });
+
+      jQuery("#homeslider").slippry();
     </script>
   </body>
 </html>
